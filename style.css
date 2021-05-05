@@ -156,6 +156,29 @@ td.expense {
   color: #E92929;
 }
 
+.modal-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  background: #F0F2F5;
+  padding: 2.4rem;
+}
+
 footer {
   text-align: center;
   padding: 4rem 0 2rem;
